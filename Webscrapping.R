@@ -9,11 +9,11 @@ rem_dr$navigate(url) # Navigate to login page
 
 ## Manually enter username and password here
 user <- rem_dr$findElement(using = "name", value = "j_username")$clickElement() # Click the "Authorize" button to continue logging in
-rem_dr$sendKeysToActiveElement(list("dittakkv"))
+rem_dr$sendKeysToActiveElement(list("****")) #---- UserName
 
 ## Manually enter password here
 pwd <- rem_dr$findElement(using = "name", value = "j_password")$clickElement() # Click the "Authorize" button to continue logging in
-rem_dr$sendKeysToActiveElement(list("Suseela@9471"))
+rem_dr$sendKeysToActiveElement(list("*****"))
 
 
 rem_dr$findElement(using = "name", value = "_eventId_proceed")$clickElement()
